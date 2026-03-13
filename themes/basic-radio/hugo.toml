@@ -1,7 +1,3 @@
-baseURL = 'https://example.org/'
-languageCode = 'lv'
-title = 'My New Hugo Project'
-
 [menus]
   [[menus.main]]
     name = 'Sākums'

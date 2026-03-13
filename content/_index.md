@@ -2,4 +2,6 @@
 title: "Sveika, pasaule!"
 ---
 
-Sveika, pasaule! Laipni lūgti jaunajā vietnē.
+> I do not think that the wireless waves I have discovered will have any practical application.
+> 
+> Heinrich Hertz

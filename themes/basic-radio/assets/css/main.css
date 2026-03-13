@@ -1,9 +1,11 @@
 body {
-  color: #222;
+  color: #1a1a1a;
   font-family: 'Inter', sans-serif;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  line-height: 1.75;
   margin: 1rem auto;
-  max-width: 768px;
+  max-width: 680px;
+  padding: 0 1rem;
 }
 
 header {
@@ -31,6 +33,40 @@ footer {
 }
 
 a {
-  color: #00e;
+  color: #0055cc;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #0055cc80;
+}
+
+a:hover {
+  text-decoration-color: #0055cc;
+}
+
+a:visited {
+  color: #6633aa;
+  text-decoration-color: #6633aa80;
+}
+
+a:visited:hover {
+  text-decoration-color: #6633aa;
+}
+
+header nav a,
+header nav a:visited {
+  color: inherit;
   text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  margin: 1.5rem 0;
+  padding: 0.5rem 1rem;
+  color: #555;
+  font-style: italic;
 }
