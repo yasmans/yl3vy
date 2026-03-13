@@ -2,7 +2,7 @@ body {
   color: #222;
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
-  margin: 1rem;
+  margin: 1rem auto;
   max-width: 768px;
 }
 
@@ -27,7 +27,7 @@ header img {
 
 footer {
   border-top: 1px solid #222;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 a {
