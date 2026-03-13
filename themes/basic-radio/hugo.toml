@@ -1,9 +1,4 @@
 [menus]
-  [[menus.main]]
-    name = 'Sākums'
-    identifier = 'home'
-    pageRef = '/'
-    weight = 10
 
   [[menus.main]]
     name = 'Ieraksti'
