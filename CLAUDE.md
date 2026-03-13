@@ -22,7 +22,6 @@ This is a Hugo static site using a custom minimal theme called **basic-radio** (
 
 **Asset pipeline** (`themes/basic-radio/assets/`):
 - `css/main.css` — minified via Hugo pipes in production, fingerprinted with SRI
-- `js/main.js` — transpiled via `js.Build`, minified in production
 
 **Content**: The `content/` directory at the root is empty — site content goes there. The theme ships example posts under `themes/basic-radio/content/posts/` for reference.
 
