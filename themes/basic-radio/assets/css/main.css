@@ -79,3 +79,30 @@ blockquote {
   color: #555;
   font-style: italic;
 }
+
+nav.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+nav.tags a,
+nav.tags a:visited {
+  font-size: 0.875rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+nav.tags a:hover {
+  border-color: #1a1a1a;
+}
+
+nav.tags .tag-count {
+  margin-left: 0.3rem;
+  font-size: 0.75rem;
+  color: #888;
+}

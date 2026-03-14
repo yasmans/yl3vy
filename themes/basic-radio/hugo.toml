@@ -6,11 +6,6 @@
     pageRef = '/posts'
     weight = 20
 
-  [[menus.main]]
-    name = 'Tagi'
-    identifier = 'tags'
-    pageRef = '/tags'
-    weight = 30
 
 [module]
   [module.hugoVersion]

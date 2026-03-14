@@ -9,4 +9,11 @@
       {{ end }}
     </section>
   {{ end }}
+  {{ with site.Taxonomies.tags }}
+  <nav class="tags">
+    {{ range $name, $term := . }}
+      <a href="{{ (site.GetPage (printf "/tags/%s" $name)).RelPermalink }}">{{ $name }}</a>
+    {{ end }}
+  </nav>
+  {{ end }}
 {{ end }}

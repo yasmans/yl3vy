@@ -1,23 +1,11 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  {{- $terms := .Data.Terms.Alphabetical }}
-  {{- if $terms }}
-    {{- $counts := slice }}
-    {{- range $terms }}
-      {{- $counts = $counts | append .Count }}
-    {{- end }}
-    {{- $max := 1 }}
-    {{- range $counts }}
-      {{- if gt . $max }}{{ $max = . }}{{ end }}
-    {{- end }}
-    <div class="tag-cloud">
-      {{- range $terms }}
-        {{- $size := div (mul .Count 4) $max | add 1 }}
-        <a href="{{ .Page.RelPermalink }}" class="tag tag-size-{{ $size }}">
-          {{ .Page.Title }}<span class="tag-count">{{ .Count }}</span>
-        </a>
+  {{- with .Data.Terms.Alphabetical }}
+    <nav class="tags">
+      {{- range . }}
+        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}<span class="tag-count">{{ .Count }}</span></a>
       {{- end }}
-    </div>
+    </nav>
   {{- end }}
 {{ end }}
