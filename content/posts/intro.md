@@ -1,10 +1,14 @@
 +++
 date = '2026-03-13T14:23:37+02:00'
-title = 'Kā es te nokļuvu?'
+title = 'Pirmie soļi'
 tags = ['FT-70DE', 'PX-888', 'LRAL']
 +++
 
-Manā īpašumā ir divas PMR rācijas, ko izmantoju civilajās frekvencēs. Tā kā rācijām bija vēl arī citas frekvences, bija interesanti, kas tajās notiek un kā es varētu tās izmantot. Tajā laikā es atradu informāciju par to, ka ir jāliek eksāmens, bet nebija nekādas saprašanas kā tādam eksāmenam būtu jāgatavojas un kas būtu jāzin.
+Manā īpašumā ir divas PMR rācijas, ko izmantoju civilajās frekvencēs. Tā kā rācijām bija vēl arī citas frekvences, bija interesanti, kas tajās notiek un kā es varētu tās izmantot.
+
+<!--more-->
+
+Tajā laikā es atradu informāciju par to, ka ir jāliek eksāmens, bet nebija nekādas saprašanas kā tādam eksāmenam būtu jāgatavojas un kas būtu jāzin.
 
 Tad vienā brīdī Facebook uzleca reklāma no [Latvijas Radio Amatieru līgas](https://lral.lv/) par bezmaksas sagatavošanās kursiem un uzreiz pieteicos. 
 
